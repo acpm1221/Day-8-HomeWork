@@ -1,0 +1,16 @@
+/* editer.css */
+
+/* Assuming you have a class "editor" for your Editor component */
+.editor {
+    width: calc(100% - 250px); /* Adjust width to accommodate sidebar */
+    float: right; /* Float the editor to the right */
+  }
+  
+  /* Assuming you have a class "sidebar" for your Sidebar component */
+  .sidebar {
+    width: 250px; /* Set width for the sidebar */
+    background-color: #f0f0f0; /* Set background color */
+    border-right: 1px solid #ccc; /* Add border on the right */
+    float: left; /* Float the sidebar to the left */
+  }
+  

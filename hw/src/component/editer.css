@@ -1,0 +1,53 @@
+/* editer.css */
+
+/* Assuming you have a class "editor-container" for the container of the Editor component */
+.editor-container {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set height to viewport height */
+  }
+  
+  /* Assuming you have a class "editor" for your Editor component */
+  .editor {
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    padding: 10px; /* Add padding */
+    background-color: #f9f9f9; /* Set background color */
+  }
+  
+  /* Assuming you have a class "ReactMde" for the ReactMde component */
+  .ReactMde {
+    width: 100%; /* Set width to 100% */
+  }
+  
+  /* Assuming you have a class "ReactMde-textarea" for the textarea within ReactMde */
+  .ReactMde-textarea {
+    min-height: 80px; /* Set minimum height */
+    padding: 10px; /* Add padding */
+    font-size: 16px; /* Set font size */
+  }
+  
+  /* Assuming you have a class "ReactMde-toolbar" for the toolbar within ReactMde */
+  .ReactMde-toolbar {
+    background-color: #f0f0f0; /* Set background color */
+    border-bottom: 1px solid #ccc; /* Add bottom border */
+    padding: 10px; /* Add padding */
+  }
+  
+  /* Assuming you have a class "ReactMde-preview" for the preview area within ReactMde */
+  .ReactMde-preview {
+    padding: 10px; /* Add padding */
+    font-size: 16px; /* Set font size */
+  }
+
+  .mde-textarea-wrapper textarea.mde-text {
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    vertical-align: top;
+    resize: vertical;
+    overflow-y: auto;
+    margin-top: -200px;
+}
+  
